@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ross">
+      <UniqueIdentifier>{4c2915ad-1a27-48f6-bc68-13773a172093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\portVideoQt">
+      <UniqueIdentifier>{ef540b2c-6b46-42b8-909c-dfcc66f67c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qextserialport">
+      <UniqueIdentifier>{b12de03e-093f-411f-984f-8d3ee2619611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DSVL">
+      <UniqueIdentifier>{470da06f-ab7d-46a2-89d6-0d5ceac56b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ross">
+      <UniqueIdentifier>{0b865d99-e037-4926-9c5b-33bff1f7e8e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GL">
+      <UniqueIdentifier>{890e0a6d-d24b-4e45-84bb-38c97d9c5cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\portVideoQt">
+      <UniqueIdentifier>{1e07b5f7-44a1-437b-b741-d672970ad904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\qextserialport">
+      <UniqueIdentifier>{5b2ddae2-248b-4726-a0af-f99ba2e10bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{72da1d06-7d4c-4fdc-9cfe-0ce287c4cc10}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{33ef4ede-e2f4-40a6-aa15-14399dbd6f70}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camerawidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="formationcontrol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="newterminaldialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openportsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ross\Behavior.cpp">
+      <Filter>Source Files\ross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ross\Cell.cpp">
+      <Filter>Source Files\ross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ross\Circle.cpp">
+      <Filter>Source Files\ross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ross\Environment.cpp">
+      <Filter>Source Files\ross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ross\Formation.cpp">
+      <Filter>Source Files\ross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ross\Neighborhood.cpp">
+      <Filter>Source Files\ross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ross\Robot.cpp">
+      <Filter>Source Files\ross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ross\Simulator.cpp">
+      <Filter>Source Files\ross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ross\Vector.cpp">
+      <Filter>Source Files\ross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\portVideoQt\cameraTool.cpp">
+      <Filter>Source Files\portVideoQt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\portVideoQt\dslibCamera.cpp">
+      <Filter>Source Files\portVideoQt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\portVideoQt\FrameInverter.cpp">
+      <Filter>Source Files\portVideoQt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\portVideoQt\portVideoQt.cpp">
+      <Filter>Source Files\portVideoQt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\portVideoQt\RingBuffer.cpp">
+      <Filter>Source Files\portVideoQt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qextserialport\qextserialbase.cpp">
+      <Filter>Source Files\qextserialport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qextserialport\qextserialenumerator.cpp">
+      <Filter>Source Files\qextserialport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qextserialport\qextserialport.cpp">
+      <Filter>Source Files\qextserialport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qextserialport\win_qextserialport.cpp">
+      <Filter>Source Files\qextserialport</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_formationcontrol.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_camerawidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_formationcontrol.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_glwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_newterminaldialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_openportsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qextserialbase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qextserialport.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_win_qextserialport.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_camerawidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_formationcontrol.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_glwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_newterminaldialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_openportsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qextserialbase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qextserialport.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_win_qextserialport.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsvl\DSVL.h">
+      <Filter>Header Files\DSVL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsvl\DSVL_GraphManager.h">
+      <Filter>Header Files\DSVL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsvl\DSVL_Helpers.h">
+      <Filter>Header Files\DSVL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsvl\DSVL_PixelFormat.h">
+      <Filter>Header Files\DSVL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dsvl\DSVL_PixelFormatTypes.h">
+      <Filter>Header Files\DSVL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Behavior.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Cell.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Circle.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Color.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Environment.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Formation.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\LinkedList.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Neighbor.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Neighborhood.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Packet.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Queue.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Relationship.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Robot.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\State.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Utils.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ross\Vector.h">
+      <Filter>Header Files\ross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GL\glut.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\portVideoQt\cameraEngine.h">
+      <Filter>Header Files\portVideoQt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\portVideoQt\cameraTool.h">
+      <Filter>Header Files\portVideoQt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\portVideoQt\dslibCamera.h">
+      <Filter>Header Files\portVideoQt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\portVideoQt\FrameInverter.h">
+      <Filter>Header Files\portVideoQt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\portVideoQt\FrameProcessor.h">
+      <Filter>Header Files\portVideoQt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\portVideoQt\portVideoQt.h">
+      <Filter>Header Files\portVideoQt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\portVideoQt\RingBuffer.h">
+      <Filter>Header Files\portVideoQt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qextserialport\qextserialenumerator.h">
+      <Filter>Header Files\qextserialport</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_formationcontrol.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_newterminaldialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_openportsdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FormationControl.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FormationControl.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="camerawidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="formationcontrol.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="glwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newterminaldialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openportsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\qextserialport\qextserialbase.h">
+      <Filter>Header Files\qextserialport</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\qextserialport\qextserialport.h">
+      <Filter>Header Files\qextserialport</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\qextserialport\win_qextserialport.h">
+      <Filter>Header Files\qextserialport</Filter>
+    </CustomBuild>
+    <CustomBuild Include="formationcontrol.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newterminaldialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openportsdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="formationcontrol.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
